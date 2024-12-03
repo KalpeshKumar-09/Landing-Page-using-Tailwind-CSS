@@ -1,8 +1,12 @@
+import HeroSection from "./components/HeroSection";
+import NavbarSection from "./components/NavbarSection";
+
 function App() {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <main className="overflow-y-hidden text-neutral-200 antialiased">
+      <NavbarSection />
+      <HeroSection />
+    </main>
   );
 }
 
