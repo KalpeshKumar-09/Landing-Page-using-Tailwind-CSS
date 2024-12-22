@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  background-image:  url("../public/home.jpeg");
+  background-size: cover;
+  background-position: 30%;
+}
